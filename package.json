@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "nft:build:contract": "yarn workspace nft build:contract:debug",
+    "nft:deploy:contract": "yarn workspace nft deploy:debug",
+    "nft:build": "yarn workspace nft build",
+    "nft:deploy": "yarn workspace nft deploy",
+    "message:build:contract": "yarn workspace message build:contract:debug",
+    "message:deploy:contract": "yarn workspace message deploy:debug",
+    "message:build": "yarn workspace message build",
+    "message:deploy": "yarn workspace message deploy",
+    "backend:deploy": "yarn workspace backend deploy",
+    "server": "yarn workspace server start"
+    
+}
+}
