@@ -5,7 +5,7 @@
             <div class="owner-nft mt-4">
                 <b-tabs content-class="mt-4">
                     <b-tab :title="`NFTs (${nfts.length})`" active>
-                    <b-card-text>Your NFTS will be shown here. If you don't have one mint now in <a target="_blank" href="https://hello_is.testnet.page/">https://hello_is.testnet.page/</a> </b-card-text>
+                    <b-card-text>Your NFTS will be shown here. If you don't have one mint now in <a target="_blank" href="https://cakim.testnet.page/">https://cakim.testnet.page/</a> </b-card-text>
                         <div class="no-item" v-if="!loading && nfts.length === 0">
                             <b-card-img class="nologo" :src="require('../assets/images/nologo.svg')" alt="Image"></b-card-img>
                             
