@@ -1,6 +1,6 @@
 # to mint an nft
 
-go to https://hello_is.testnet.page
+go to https://hello_is.testnet.page or https://cakim.testnet.page (i put two website because sometimes `hello_is` got 502 gateway error i dont know why)
 
 # to send a message 
 
@@ -90,4 +90,4 @@ VUE_APP_CONTRACT=# the message contract
 VUE_APP_NFT_CONTRACT=# your nft minter contract
 ```
 
-after that change this line https://github.com/spiritbro1/web4-message-and-nft/blob/main/packages/message/assembly/main.ts#L59 `hello_is.testnet` to you nft minter deployed contract for the rest of command its pretty much the same you just need to change `nft` to `message` for example `yarn message:build:contract` and so on, then you can open your app on `<account id>.page`
+after that change this line https://github.com/spiritbro1/web4-message-and-nft/blob/main/packages/message/assembly/main.ts#L59 `hello_is.testnet` to your nft minter deployed contract, and then for the rest of command its pretty much the same you just need to change `nft` to `message` for example `yarn message:build:contract` and so on, then you can open your app on `<account id>.page`
